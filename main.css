@@ -1,0 +1,33 @@
+.containerImg .image .marking {
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+.containerImg .image .captionElem {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    color: white;
+    font-size: 18px;
+}
+.containerImg .prev {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-size: 20px;
+}
+.containerImg .next {
+    position: absolute;
+    top: 120px;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-size: 20px;
+}
+.containerImg .next:hover, .containerImg .prev:hover{
+    background-color: black;
+}
